@@ -1,0 +1,35 @@
+module.exports={
+    mode:'development',
+    entry:{
+        path:__dirname+'/src/main.js'
+    },
+    output:{
+        path:__dirname+'/dist',
+        filename:'build.js'
+    },
+    module:{
+        rules:[
+            {
+                test:/\.(jsx|js)$/,
+                use:['babel-loader'],
+                exclude:/node_modules/
+            },
+            {
+                test:/\.css$/,
+                use:['style-loader','css-loader']
+            },
+            {
+                test:/\.(jpg|jpeg|png|gif|woff|svg|ttf|eot|woff2)$/,
+                use:['file-loader']
+            }
+        ]
+    },
+    plugins:[
+
+    ],
+    devServer:{
+        host:'localhost',
+        port:8099,
+        contentBase:'.'
+    }
+}

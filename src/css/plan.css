@@ -1,0 +1,41 @@
+.ant-layout-content{
+    background:#eee;
+}
+.mon{
+    width:280px;
+    height:80px;
+    background:#fff;
+    display: inline-block;
+    text-align:center;
+    line-height:80px;
+}
+.mons{
+    margin-left:20px;
+}
+.bottom{
+    width:100%;
+    background:#fff;
+    margin-top:20px;
+    height:440px;
+}
+.head{
+    height:50px;
+    border-bottom:1px solid #ccc;
+    line-height:50px;
+    padding-lefT:10px;
+}
+.mon1{
+    width:180px;
+    height:80px;
+    background:#fff;
+    display: inline-block;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left:10px;
+    line-height:10px;
+}
+.mon1 p{
+    
+    margin-top:20px;
+}
