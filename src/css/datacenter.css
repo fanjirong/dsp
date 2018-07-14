@@ -1,0 +1,9 @@
+.datacenter{
+    background:#fff;
+    padding: 20px;
+}
+.datacenter button{
+    width:15%;
+    background:#fff;
+    border:1px solid #ccc;
+}
